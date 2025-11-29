@@ -1,0 +1,54 @@
+/*-------------------TRABAJOS WEBS-------------------------*/
+
+/*ajustes de las webs ya hechas*/
+.webs{
+    background-color: var(--color4);
+    padding-bottom:8% ;
+    padding-top: 5%;
+}
+
+.webs .titulo1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 180%;
+}
+
+.webs .trabajo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+.webs .trabajo h1{
+    font-size: 160%;
+}
+
+.webs .trabajo .trabajo1 img{
+    width: 100%;
+    border-radius: 15%;
+    
+}
+
+.webs .trabajo .trabajo1 {
+    margin-right: 4%;
+    text-align: center;
+    background-color: var(--color7);
+    border-radius: 15%;
+    padding: 2%;
+    box-shadow: -6px 1px 25px 1px var(--colortexto);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--colortexto);
+    transition: transform 0.3s;
+}
+
+.webs .trabajo .trabajo1:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,96 @@
+/*---------------MENU NAV-------------*/
+
+
+/*Caja principal*/
+.menu-nav{
+    background-color: var(--color1);
+    padding-top:1%;
+    padding-bottom: 1%;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0 ;
+    z-index: 1;
+}
+
+/*Caja Secundaria*/
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Titulo de la pagina*/
+.menu-nav .contenedor .titulo {
+    font-size: 150%;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--colortexto);
+    font-weight: bold;
+    margin-left: 3%;
+}
+
+/*Caja de las categorias*/
+.menu-nav .contenedor .categoria ul {
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--colortexto);
+    padding: 0 0px 0 0px;
+}
+
+/*Caja de las categorias los link*/
+.menu-nav .contenedor .categoria ul a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--colortexto);
+    font-size: 120%;
+    letter-spacing:0.3ch;
+    font-weight: bold;
+    padding: 0 15px;
+    transition: 0.5s;
+}
+
+.menu-nav .contenedor .categoria ul a:hover{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--colortexto);
+    font-size: 120%;
+    letter-spacing:0.3ch;
+    padding: 0 15px;
+    border-bottom: 1px solid var(--colortexto) ;
+    transition: 0.5s;
+}
+
+/*------------BOTON DESCARGA-------------*/
+/*Boton de descargas*/
+.menu-nav .contenedor .descarga {
+    border: none;
+    border-radius: 80px;
+    letter-spacing: 2px;
+    padding: 10px 36px 10px 36px;
+    font-size: 20px;
+    background-color: var(--amarillo);
+    text-decoration: none;
+    color: var(--colortexto);
+    margin-right: 10%;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+/*Animacion del boton de descarga*/
+.menu-nav .contenedor .descarga:hover {
+    border: none;
+    border-radius: 80px;
+    letter-spacing: 2px;
+    padding: 10px 36px 10px 36px;
+    font-size: 20px;
+    background-color: var(--colortexto);
+    text-decoration: none;
+    color: var(--color5);
+    margin-right: 10%;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+
+

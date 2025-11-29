@@ -1,0 +1,28 @@
+:root{
+
+    --color1: #6c788e;
+    --color2: #a6aec1;
+    --color3: #cfd5e1;
+    --color4: #ededf2;
+    --color5: #f2f4f7;
+    --color6: #f2f4f7;
+
+    --color7: #eef1f5;
+
+    --colortexto: black;
+    --amarillo: yellow;
+    --gris: grey;
+}
+
+*  {
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,46 @@
+/*------------------PRESENTACION----------------------*/
+
+/*flex para poner a cada lado la foto y los textos*/
+main .presentacion {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color2);
+}
+
+/*Foto de la portada*/
+main .Fotoport{
+    width: 100%;
+    height: auto;
+    margin-left: 70%;
+    margin-bottom: -1.1%;
+}
+
+/*parte derecha de la presentacion*/
+.presentacion .derecha{
+	flex-basis:50%;
+}
+
+/*ajustes del texto*/
+.presentacion .derecha p{
+    font-size: 180%;
+    border-radius: 80px;
+    color: var(--color5);
+    background-color: var(--colortexto);
+    padding: 2%;
+    margin-right: 36%;
+    margin-top: 25%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+/*ajustes del texto*/
+.presentacion .derecha a{
+    text-decoration: none;
+    font-size: 180%;
+    border-radius: 80px;
+    color: var(--colortexto);
+    background-color: var(--amarillo);
+    padding: 2%;
+    font-family: Elephant;
+}

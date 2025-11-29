@@ -1,0 +1,162 @@
+/*----------------------CONTACTO----------------------------*/
+/*ajustes del footer*/
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    padding-bottom: 3%;
+    
+}
+
+/*ajustes del titulo*/
+.titulo3{
+    padding-top: 2%;
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*AJUSTE DE CAJA IZQUIERDA*/
+.footer .izquierda {
+    padding: 30px;
+    margin-right:2%;
+}
+
+/*AJUSTES D ECAJA DERECHA*/
+.footer .derecha {
+    padding-top: 65px;
+    text-align: center;
+
+}
+
+
+.contact-form {
+    padding: 20px;
+    width: 400px;
+}
+
+/*ajustes del enviar datos de informacion*/
+input, input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    font-family: 'Arial', Helvetica, sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+textarea{
+    padding-bottom: 15%;
+}
+
+/*BOTON DE ENVIAR */
+button {
+    border: none;
+    border-radius: 80px;
+    letter-spacing: 2px;
+    padding: 10px 36px 10px 36px;
+    font-size: 20px;
+    background-color: var(--amarillo);
+    color: var(--colortexto);
+    font-weight: bold;
+    transition: 0.5s;    
+    width: 100%;
+    margin-top: 20px;
+}
+
+/*Animacion del boton*/
+button:hover {
+    border: none;
+    border-radius: 80px;
+    letter-spacing: 2px;
+    padding: 10px 36px 10px 36px;
+    font-size: 20px;
+    background-color: var(--colortexto);
+    color: var(--color5);
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+
+/*TITULO DE LA CAJA derecha*/
+.footer .derecha h1{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+
+
+}
+
+/*NUMERO TELEFONO*/
+.footer .derecha .numero{
+    margin-top: 5%;
+
+}
+
+
+/*CORREO ELECTRONICO*/
+.footer .derecha .correo{
+    margin-bottom: 3.5%;
+}
+
+.footer .derecha .correo a{
+    text-decoration: none;
+    color: var(--colortexto);
+
+}
+
+
+/*REDES SOCAILES*/
+.footer .derecha .social {
+    padding-top: 5%;
+    font-size: 150%;
+    text-align: center;
+}
+
+.footer .derecha .social a{
+
+    padding-left: 2%;
+    text-decoration: none;
+    color: var(--colortexto);
+
+
+}
+
+/*NEWsletter*/
+
+.news{
+    padding: 12%;
+}
+
+.newsletter{
+    border: none;
+    border-radius: 80px;
+    letter-spacing: 2px;
+    padding: 10px 70px 10px 70px;
+    font-size: 20px;
+    background-color: var(--amarillo);
+    color: var(--colortexto);
+    font-weight: bold;
+    transition: 0.5s;    
+
+    text-decoration: none;
+}
+
+/*Animacion del boton*/
+.newsletter:hover{
+    border: none;
+    border-radius: 80px;
+    letter-spacing: 2px;
+    padding: 10px 70px 10px 70px;
+    font-size: 20px;
+    background-color: var(--colortexto);
+    color: var(--color5);
+    font-weight: bold;
+    transition: 0.5s;
+}
+

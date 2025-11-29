@@ -1,0 +1,63 @@
+/*---------------DESCRIPCION-----------------*/
+
+/*Ajustes del bloque general*/
+.descripcion {
+    padding: 2%;
+    display: flex;
+    background-color: var(--color3);
+    padding-top: 5%;
+
+}
+
+/*Ajustes de la imagen*/
+.descripcion .fotodesc{
+    width: 70%;
+    height: auto;
+}
+
+/*Ajustes de la izquierda */
+.descripcion .izquierda {
+    margin-left: 20%;
+    flex-basis: 45%;
+    padding: 30px;
+}
+
+/*Ajustes de texto de la izquierda H1*/
+.descripcion .izquierda h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 200%;
+    margin-top: -10px;
+    margin-left: -3%;
+}
+
+/*Ajustes de texto de la izquierda p*/
+.descripcion .izquierda p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 140%;
+    margin-left: -3%;
+    padding-right: 18%;
+}
+
+/*Ajustes de la imagen*/
+.descripcion .derecha img{
+    border-radius: 80px;
+}
+
+/*Tabla de informacion*/
+dl{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: -3%;
+}
+
+dl dt{
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+}
+
+dl dd{
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
