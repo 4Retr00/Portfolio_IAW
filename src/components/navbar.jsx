@@ -16,7 +16,7 @@ export default function Navbar() {
                     <ul>
                         <a href="#">Introduccion</a>
                         <a href="#descripcion">Sobre Mi</a>
-                        <a href="#webs">Trabajos</a>
+                        <a href="#webs">Proyectos</a>
                         <a href="#comentarios">Comentarios</a>
                         <a href="#contacto">Contacto</a>
                     </ul>
