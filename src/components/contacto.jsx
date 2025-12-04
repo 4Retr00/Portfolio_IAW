@@ -4,8 +4,43 @@ import { FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
+import { useState } from "react";
+import Swal from 'sweetalert2'
+
 
 export default function Contacto() {
+    
+    const [nombre, setNombre] = useState("");
+    const [email, setEmail] = useState("");
+    const [mensaje, setMensaje] = useState("");
+
+    const mostrarAlerta = (e) => {
+        e.preventDefault();
+
+        // salta si no hay datos vacios
+        if (!nombre || !email || !mensaje) {
+            Swal.fire({
+                title: "Faltan datos",
+                text: "Por favor completa todos los campos.",
+                icon: "error"
+            });
+            return;
+        }
+
+        // Si esta todo relleneado salta
+        Swal.fire({
+            title: "¡Mensaje enviado!",
+            text: "Tu mensaje ha sido enviado correctamente.",
+            icon: "success"
+        });
+
+        // vacia los datos al acabar de enviar
+        setNombre("");
+        setEmail("");
+        setMensaje("");
+    };
+
+
     return(
         <footer>
             <h2 className="titulo3">Contacto</h2>
@@ -13,12 +48,29 @@ export default function Contacto() {
             <div className="footer">
 
                 <section className="izquierda" id="contacto">
-                    <div className="contact-form">
-                        <input type="text" placeholder="Nombre Completo"/>
-                        <input type="email" placeholder="Tu Email"/>
-                        <textarea placeholder="Mensaje"></textarea>
-                        <button type="submit">Enviar</button>
-                    </div>
+                    <form className="contact-form" onSubmit={mostrarAlerta}>
+                <input
+                    type="text"
+                    placeholder="Nombre Completo"
+                    value={nombre}
+                    onChange={(e) => setNombre(e.target.value)}
+                />
+
+                <input
+                    type="email"
+                    placeholder="Tu Email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                />
+
+                <textarea
+                    placeholder="Mensaje"
+                    value={mensaje}
+                    onChange={(e) => setMensaje(e.target.value)}
+                ></textarea>
+
+                <button type="submit">Enviar</button>
+                    </form>
                 </section>
 
                 <aside className="derecha">
