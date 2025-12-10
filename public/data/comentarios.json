@@ -1,0 +1,32 @@
+{
+    "comentarios": [
+        {
+            "id": 1,
+            "nombre": "Ben",
+            "Cargo": "Director de Arte",
+            "mensaje": "Tu página destaca con un diseño visualmente impactante",
+            "foto": "./assets/img/coment01.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "Maria",
+            "Cargo": "Consultora de Marketing",
+            "mensaje": "La página es fácil sumergirse fácilmente en el portafolio.",
+            "foto": "./assets/img/coment02.jpg"
+        },
+        {
+            "id": 3,
+            "nombre": "Jen",
+            "Cargo": "Manager",
+            "mensaje": "La navegación es intuitiva, para los visitantes explorar sin esfuerzo",
+            "foto": "./assets/img/coment03.jpg"
+        },
+        {
+            "id": 4,
+            "nombre": "Wilson",
+            "Cargo": "Desarrollador Web",
+            "mensaje": "La página impresiona con su diseño atractivo.",
+            "foto": "./assets/img/coment04.jpg"
+        }
+    ]
+}
