@@ -7,8 +7,6 @@ import "./css/styles.css";
 export default function App() {
   return (
     <BrowserRouter>
-
-      {/* Contenido que cambia según la ruta */}
       <Routes>
         <Route path="/" element={<Navbar />} />
         <Route path="/newsletter" element={<Newsletter />} />
