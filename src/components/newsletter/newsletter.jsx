@@ -5,6 +5,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import "./newsletter.css";
 
+
 export default function Newsletter() {
     return(
         <body className="newsletter-container">
